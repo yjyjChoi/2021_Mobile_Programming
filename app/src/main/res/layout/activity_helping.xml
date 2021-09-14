@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="앱 사용에 도움을 주는 페이지입니다." />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="28dp"
+        android:textStyle="bold"
+        android:text="1. 향수 향 종류" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+        머스크 : 원래는 사향노루의 페로몬 향을 의미함. 은은한 살냄새.\n
+        따뜻함/포근함. \n
+        우디 : 나무향, 산내음. 신선함, 중후함, 고급스러움.\n
+        시트러스 : 라임, 오렌지, 레몬 등 감귤류의 향. 가벼움/상큼함.\n
+        플로럴 : 꽃 향기. 고급스러운 꽃 향.\n
+        파우더리 : 벨벳과 같은 부드러운 향. 포근함." />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="28dp"
+        android:textStyle="bold"
+        android:text="2. 향수 지속력?" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+        오 드 코롱(EDC) : 부향률 3~5%, 2~3시간의 지속력\n
+        오 드 뚜왈렛(EDT) : 부향률 5~10%, 3~4시간의 지속력\n
+        오 드 퍼퓸(EDP) : 부향률 10~15%, 4~5시간의 지속력\n
+        퍼퓸(Perfume) :부향률 15~25%, 6~7시간의 지속력\n
+        ------------- 지속력 : EDC &lt; EDT &lt; EDP &lt; Perfume -------------" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorPrimary"
+        android:text="My Perfume은 자신의 선호에 따른 향수를 추천해주고, \n선호에 맞는 향수를 구매할 수 있도록 도와주는 언택트 비즈니스 앱입니다.\n문의 : my_perfume@mju.ac.kr" />
+
+    <Button
+        android:id="@+id/inquiryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#99CCCC"
+        android:layout_weight="1"
+        android:text="메일 문의하기" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99CCCC"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:text="이전" />
+
+</LinearLayout>

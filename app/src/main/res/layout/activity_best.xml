@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:stretchColumns="0">
+
+        <TextView
+            android:id="@+id/mainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:text="주간 인기 BEST5" />
+
+        <TableRow android:id="@+id/rank1">
+            <ImageView
+                android:id="@+id/img_melograno"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:gravity="center_vertical"
+                app:srcCompat="@drawable/melograno" />
+
+            <TextView
+                android:id="@+id/txt_melograno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:text="산타마리아노벨라 - 멜로그라노\n(파우더리 계열 EDC)" />
+
+            <Button
+                android:id="@+id/best_buy1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:textSize="10dp"
+                android:text="구매하기" />
+        </TableRow>
+
+        <TableRow android:id="@+id/floral1">
+            <ImageView
+                android:id="@+id/img_la_tulipe"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:gravity="center_vertical"
+                app:srcCompat="@drawable/la_tulipe" />
+
+            <TextView
+                android:id="@+id/txt_la_tulipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:text="바이레도 - 라 튤립\n(플로럴 계열 EDP)" />
+
+            <Button
+                android:id="@+id/best_buy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:textSize="10dp"
+                android:text="구매하기" />
+        </TableRow>
+
+        <TableRow android:id="@+id/woody2">
+            <ImageView
+                android:id="@+id/img_tamdao"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:gravity="center_vertical"
+                app:srcCompat="@drawable/tamdao" />
+
+            <TextView
+                android:id="@+id/txt_tamdao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:text="딥티크 - 탐다오\n(우디 계열 EDP)" />
+
+            <Button
+                android:id="@+id/best_buy3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:textSize="10dp"
+                android:text="구매하기" />
+        </TableRow>
+
+        <TableRow android:id="@+id/floral2">
+            <ImageView
+                android:id="@+id/img_english_pear_freesia"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:gravity="center_vertical"
+                app:srcCompat="@drawable/english_pear_freesia" />
+
+            <TextView
+                android:id="@+id/txt_english_pear_freesia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:text="조말론 - 잉글리쉬 페어 앤 프리지아\n(플로럴 계열 EDC)" />
+
+            <Button
+                android:id="@+id/best_buy4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:textSize="10dp"
+                android:text="구매하기" />
+        </TableRow>
+
+        <TableRow android:id="@+id/citrus1">
+            <ImageView
+                android:id="@+id/img_light_blue"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:gravity="center_vertical"
+                app:srcCompat="@drawable/light_blue" />
+
+            <TextView
+                android:id="@+id/txt_light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:text="돌체앤가바나 - 라이트블루\n(시트러스 계열 EDT)" />
+
+            <Button
+                android:id="@+id/best_buy5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:textSize="10dp"
+                android:text="구매하기" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99CCCC"
+            android:text="이전" />
+
+    </TableLayout>
+
+</ScrollView>
